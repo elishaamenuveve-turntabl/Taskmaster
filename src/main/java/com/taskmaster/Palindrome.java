@@ -19,8 +19,6 @@ public class Palindrome {
     public static boolean isAnagramOfPalindrome(String word) {
         word = word.replaceAll(" ", "").toLowerCase();
 
-        int wordLength = word.length();
-
         Map<String, Integer> charOccurrence = new HashMap<>();
 
         Arrays.stream(word.split("")).forEach((c) -> {
@@ -28,13 +26,6 @@ public class Palindrome {
             charOccurrence.put(c, occurence+1);
         });
 
-        if ( wordLength%2 == 0) {
-            for (int cOccurence : charOccurrence.values()) {
-                if (cOccurence%2 != 0) {
-                    return false;
-                }
-            }
-        } else {
             int countOfOddOccurences = 0;
             for (int cOccurence : charOccurrence.values()) {
                 if (cOccurence%2 != 0) {
@@ -42,7 +33,6 @@ public class Palindrome {
                         return false;
                 }
             }
-        }
         return true;
     }
 }
