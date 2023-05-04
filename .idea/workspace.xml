@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c58c96d2-7e8d-4a95-83e6-1b39e21e6355" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmaster/Commonality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmaster/Heterogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmaster/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmaster/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/taskmaster/CommonalityTest.java" afterDir="false" />
+    <list default="true" id="c58c96d2-7e8d-4a95-83e6-1b39e21e6355" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taskmaster/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taskmaster/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/taskmaster/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taskmaster/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/taskmaster/CommonalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/taskmaster/CommonalityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +56,7 @@
       <recent name="com.taskmaster" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.taskmaster.Main" />
       <module name="TaskMaster" />
@@ -77,9 +70,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CommonalityTest.returnsWordsCorrectlyOrderedByOccurence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskMaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taskmaster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.taskmaster" />
+      <option name="MAIN_CLASS_NAME" value="com.taskmaster.CommonalityTest" />
+      <option name="METHOD_NAME" value="returnsWordsCorrectlyOrderedByOccurence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CommonalityTest.returnsWordsCorrectlyOrderedByOccurence" />
       </list>
     </recent_temporary>
   </component>
@@ -92,6 +102,14 @@
       <option name="presentableId" value="Default" />
       <updated>1683191615448</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1683215110394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683215110395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,5 +122,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/taskmaster/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
