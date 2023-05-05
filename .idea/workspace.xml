@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c58c96d2-7e8d-4a95-83e6-1b39e21e6355" name="Changes" comment="Initial Commit">
+    <list default="true" id="c58c96d2-7e8d-4a95-83e6-1b39e21e6355" name="Changes" comment="Updated Palindrome Anagram Method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmaster/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmaster/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmaster/NumberString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/taskmaster/MoneyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/taskmaster/NumberStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/taskmaster/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taskmaster/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/taskmaster/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/taskmaster/Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/taskmaster/CommonalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/taskmaster/CommonalityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -39,16 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.taskmaster" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -56,21 +64,8 @@
       <recent name="com.taskmaster" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.taskmaster.Main" />
-      <module name="TaskMaster" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.taskmaster.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommonalityTest.returnsWordsCorrectlyOrderedByOccurence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MoneyTest">
+    <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TaskMaster" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +74,71 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.taskmaster" />
-      <option name="MAIN_CLASS_NAME" value="com.taskmaster.CommonalityTest" />
-      <option name="METHOD_NAME" value="returnsWordsCorrectlyOrderedByOccurence" />
+      <option name="MAIN_CLASS_NAME" value="com.taskmaster.MoneyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.subtractsMoneyCorrectlyForDifferentCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskMaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taskmaster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.taskmaster" />
+      <option name="MAIN_CLASS_NAME" value="com.taskmaster.MoneyTest" />
+      <option name="METHOD_NAME" value="subtractsMoneyCorrectlyForDifferentCurrency" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.subtractsMoneyCorrectlyForSameCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskMaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taskmaster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.taskmaster" />
+      <option name="MAIN_CLASS_NAME" value="com.taskmaster.MoneyTest" />
+      <option name="METHOD_NAME" value="subtractsMoneyCorrectlyForSameCurrency" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.sumsMoneyCorrectlyForDifferentCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskMaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taskmaster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.taskmaster" />
+      <option name="MAIN_CLASS_NAME" value="com.taskmaster.MoneyTest" />
+      <option name="METHOD_NAME" value="sumsMoneyCorrectlyForDifferentCurrency" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.sumsMoneyCorrectlyForSameCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskMaster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.taskmaster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.taskmaster" />
+      <option name="MAIN_CLASS_NAME" value="com.taskmaster.MoneyTest" />
+      <option name="METHOD_NAME" value="sumsMoneyCorrectlyForSameCurrency" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,8 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CommonalityTest.returnsWordsCorrectlyOrderedByOccurence" />
+        <item itemvalue="JUnit.MoneyTest" />
+        <item itemvalue="JUnit.MoneyTest.subtractsMoneyCorrectlyForDifferentCurrency" />
+        <item itemvalue="JUnit.MoneyTest.subtractsMoneyCorrectlyForSameCurrency" />
+        <item itemvalue="JUnit.MoneyTest.sumsMoneyCorrectlyForDifferentCurrency" />
+        <item itemvalue="JUnit.MoneyTest.sumsMoneyCorrectlyForSameCurrency" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683215110395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Palindrome Anagram Method">
+      <created>1683219202577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683219202577</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated Palindrome Anagram Method">
+      <created>1683219635458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683219635458</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,17 +200,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added Palindrome Anagram Method" />
+    <MESSAGE value="Updated Palindrome Anagram Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Palindrome Anagram Method" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/taskmaster/Main.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TaskMaster$MoneyTest.ic" NAME="MoneyTest Coverage Results" MODIFIED="1683291031759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.taskmaster.*</FILTER>
+    </SUITE>
   </component>
 </project>

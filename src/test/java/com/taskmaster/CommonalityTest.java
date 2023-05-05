@@ -13,6 +13,7 @@ class CommonalityTest {
 
     @Test
     void returnsWordsCorrectlyOrderedByOccurence() {
+
         List<String> orderedList =
                 new ArrayList<>(
                         List.of("one", "two", "two", "three", "three", "three")
